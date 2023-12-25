@@ -21,7 +21,7 @@ class LinkedQueue:
         else:
             self.rear.next = newNode
             self.rear = newNode
-            self.count += 1
+        self.count += 1
 
     def dequeue(self):
         if self.isEmpty():
