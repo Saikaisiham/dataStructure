@@ -1,4 +1,4 @@
-class LinkedList:
+class LinkedStack:
     class Node:
         def __init__(self, item):
             self.item = item 
@@ -43,7 +43,7 @@ class LinkedList:
 
 
 if __name__ == '__main__':
-    ls = LinkedList()
+    ls = LinkedStack()
     
     ls.push(8)
     ls.push(8)
