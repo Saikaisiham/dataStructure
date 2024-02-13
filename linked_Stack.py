@@ -14,6 +14,7 @@ class LinkedStack:
 
     def push(self, new_item):
         newNode = self.Node(new_item)
+        #next attribute of a node typically points to the node below it in the stack
         newNode.next = self.top
         self.top = newNode
 
